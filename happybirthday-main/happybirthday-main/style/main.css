@@ -2,12 +2,63 @@ html {
   box-sizing: border-box;
 }
 
+
+
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   color: white;
-    background-image: url('https://img.clipart-library.com/2/clip-sparkling-gif/clip-sparkling-gif-25.gif');
+  background-image: url('https://www.zingerbug.com/Backgrounds/background_images/pink_satin_love_bats.gif');
+  
+  
 }
+
+/* Add neon effect to text */
+h1, h2, h3, p {
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff99ff, 0 0 40px #ff99ff;
+}
+
+/* Add neon effect to buttons */
+button {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ff00ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff99ff, 0 0 30px #ff99ff;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff99ff, 0 0 60px #ff99ff;
+}
+
+/* Neon borders for divs */
+.container {
+  border: 2px solid #ff00ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff99ff, 0 0 30px #ff99ff;
+}
+
+/* Example for links */
+a {
+  color: #ff00ff;
+  text-decoration: none;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff99ff, 0 0 20px #ff99ff;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff99ff, 0 0 60px #ff99ff;
+}
+
+
 
 .song {
   visibility: hidden;
